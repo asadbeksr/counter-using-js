@@ -2,7 +2,7 @@ const counter = document.getElementById('counter')
 const incr = document.querySelector('.incr');
 const reset = document.querySelector('.reset');
 
-let count = 9999;
+let count = 0;
 
 incr.addEventListener('click', () => {
   count++;
