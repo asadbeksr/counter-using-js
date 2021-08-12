@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 300px;
   background: #6012f1;
   color: #fff;
   display: flex;
@@ -33,24 +33,25 @@ body {
 
 .heading {
   font-family: "Poppins", sans-serif;
+  font-size: 2rem;
 }
 
-button {
-  width: 40px;
-  height: 40px;
+.incr{
+  width: 60px;
+  height: 60px;
   position: absolute;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.5em;
   background: #fff;
-  color: rgb(34, 34, 34);
+  color: rgb(10, 199, 89);
   box-shadow: 0 0 10px rgb(51, 51, 51, 0.5);
   border: none;
   border-radius: 50px;
 }
 
 .incr {
-  bottom: 10%;
-  right: -15%;
+  bottom: -8%;
+  right: -10%;
 }
 
 .incr:active {
@@ -59,12 +60,25 @@ button {
   transform: translateY(2px);
 }
 
-.decr {
-  bottom: -15%;
-  right: 10%;
+
+.reset{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: #fff;
+  color: rgb(243, 7, 7);
+  box-shadow: 0 0 10px rgb(51, 51, 51, 0.5);
+  border: none;
+  border-radius: 50px;
+}
+.reset {
+  bottom: -8%;
+  right: 85%;
 }
 
-.decr:active {
+.reset:active {
   background-color: #cecece;
   box-shadow: 0 1px rgb(165, 165, 165);
   transform: translateY(2px);
